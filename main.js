@@ -45,7 +45,7 @@ var convertNow = () => {
     newWordDiv.classList.add('col-6');
     newWordDiv.classList.add('border');
     newWordDiv.classList.add('border-primary');
-    newWordDiv.innerHTML = ans;
+    newWordDiv.innerHTML = ans+' Only/-';
     newDiv.appendChild(newNumDiv);
     newDiv.appendChild(newWordDiv);
     var histotyDiv = document.getElementById('history');
